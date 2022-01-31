@@ -5,4 +5,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return jsonify({ 'categpry': 'shirt' })
+    return jsonify({ 'categpry': 'pants' })
